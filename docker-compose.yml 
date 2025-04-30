@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  book_recommender:
+    build: .
+    ports:
+      - "8080:7860"
+    restart: always
